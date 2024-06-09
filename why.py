@@ -6,7 +6,7 @@ from tabulate import tabulate
 import tkinter as tk
 import mysql.connector
 
-con=mysql.connector.connect(host="localhost",user="root",password="SQL123@",database="store")
+con=mysql.connector.connect(host="localhost",user="root",password="Your Password",database="store")
 root=Tk()
 
 root.geometry('1920x1080')
